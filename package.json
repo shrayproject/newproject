@@ -1,20 +1,13 @@
 {
-<<<<<<< HEAD
-  "homepage": "https://shrayproject.github.io/react/",
-=======
-  "homepage": "https://shrayproject.github.io/projectassignment/",
->>>>>>> ebbb8e06e38c11f5ebf61983555a2d05e75cf996
   "name": "frontend",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.6.7",

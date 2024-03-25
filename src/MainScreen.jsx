@@ -10,9 +10,9 @@ const MainScreen = () => {
   return toggle ? (
     <div className="bg-black gap-6 h-screen flex items-center  flex-col">
       <button onClick={handleClick} className="absolute right-4 ">
-        <img className="h-14" src="../public/Page 1/Group 46.png" />
+        <img className="h-14" src="../Page1/Group46.png" />
       </button>
-      <img className="h-24 mt-16" src="../public/Page 1/moptro logo.png" />
+      <img className="h-24 mt-16" src="../Page1/moptrologo.png" />
       <input type="text" placeholder="search here" className="input"></input>
       <div>
         <div>
@@ -72,9 +72,9 @@ const MainScreen = () => {
   ) : (
     <div className="bg-black gap-6 h-screen flex items-center  flex-col">
       <button onClick={handleClick} className="absolute right-4 ">
-        <img className="h-14" src="../public/Page 1/Group 46.png" />
+        <img className="h-14" src="../Page1/Group46.png" />
       </button>
-      <img className="h-24 mt-16" src="../public/Page 1/moptro logo.png" />
+      <img className="h-24 mt-16" src="../Page1/moptrologo.png" />
       <input type="text" placeholder="search here" className="input"></input>
       <div className="flex flex-col gap-4">
         <button onClick={handleClick}>

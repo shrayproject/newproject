@@ -27,7 +27,7 @@ const Login = () => {
     <MainScreen />
   ) : (
     <div className="bg-black h-screen flex items-center justify-center flex-col gap-8">
-      <img className="h-1/6" src="../public/Page 1/Group 3.png" />
+      <img className="h-1/6" src="../Page1/Group3.png" />
       <form
         onSubmit={handleSubmit}
         className="flex items-center justify-center flex-col gap-8"
